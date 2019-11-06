@@ -1,0 +1,11 @@
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\bin\Debug\netcoreapp3.0\Repository.exe
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\bin\Debug\netcoreapp3.0\Repository.deps.json
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\bin\Debug\netcoreapp3.0\Repository.runtimeconfig.json
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\bin\Debug\netcoreapp3.0\Repository.runtimeconfig.dev.json
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\bin\Debug\netcoreapp3.0\Repository.dll
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\bin\Debug\netcoreapp3.0\Repository.pdb
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\obj\Debug\netcoreapp3.0\Repository.csprojAssemblyReference.cache
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\obj\Debug\netcoreapp3.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\obj\Debug\netcoreapp3.0\Repository.AssemblyInfo.cs
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\obj\Debug\netcoreapp3.0\Repository.dll
+C:\Users\Saicharan_Jeevanagar\source\repos\eCart\Repository\obj\Debug\netcoreapp3.0\Repository.pdb
