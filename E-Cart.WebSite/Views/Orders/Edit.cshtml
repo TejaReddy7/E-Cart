@@ -1,0 +1,69 @@
+﻿@model E_Cart.WebSite.Models.Orders
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Orders</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="OrderId" />
+            <div class="form-group">
+                <label asp-for="ProductId" class="control-label"></label>
+                <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
+                <span asp-validation-for="ProductId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SellerId" class="control-label"></label>
+                <input asp-for="SellerId" class="form-control" />
+                <span asp-validation-for="SellerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderNumber" class="control-label"></label>
+                <select asp-for="OrderNumber" class="form-control" asp-items="ViewBag.OrderNumber"></select>
+                <span asp-validation-for="OrderNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShipmentId" class="control-label"></label>
+                <select asp-for="ShipmentId" class="form-control" asp-items="ViewBag.ShipmentId"></select>
+                <span asp-validation-for="ShipmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaymentId" class="control-label"></label>
+                <select asp-for="PaymentId" class="form-control" asp-items="ViewBag.PaymentId"></select>
+                <span asp-validation-for="PaymentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateStamp" class="control-label"></label>
+                <input asp-for="DateStamp" class="form-control" />
+                <span asp-validation-for="DateStamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstimatedDeliveryDate" class="control-label"></label>
+                <input asp-for="EstimatedDeliveryDate" class="form-control" />
+                <span asp-validation-for="EstimatedDeliveryDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

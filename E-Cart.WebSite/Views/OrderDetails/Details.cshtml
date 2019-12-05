@@ -1,0 +1,60 @@
+﻿@model E_Cart.WebSite.Models.OrderDetails
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>OrderDetails</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OrderId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OrderId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SellerId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SellerId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tax)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tax)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateStamp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateStamp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Freight)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.OrderNumber">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

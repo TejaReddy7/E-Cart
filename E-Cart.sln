@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{3B729E00-37ED-4211-86C4-0CE7AEAE0FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{3B729E00-37ED-4211-86C4-0CE7AEAE0FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Cart.WebSite", "E-Cart.WebSite\E-Cart.WebSite.csproj", "{1AA39A75-6F02-4AE3-8993-7C34EC54F558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECART", "ECART\ECART.csproj", "{A6C3B222-B233-4326-9BFD-BD8067D85898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3B729E00-37ED-4211-86C4-0CE7AEAE0FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B729E00-37ED-4211-86C4-0CE7AEAE0FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B729E00-37ED-4211-86C4-0CE7AEAE0FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA39A75-6F02-4AE3-8993-7C34EC54F558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA39A75-6F02-4AE3-8993-7C34EC54F558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA39A75-6F02-4AE3-8993-7C34EC54F558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA39A75-6F02-4AE3-8993-7C34EC54F558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C3B222-B233-4326-9BFD-BD8067D85898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C3B222-B233-4326-9BFD-BD8067D85898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C3B222-B233-4326-9BFD-BD8067D85898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C3B222-B233-4326-9BFD-BD8067D85898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

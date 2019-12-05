@@ -1,0 +1,42 @@
+﻿@model E_Cart.WebSite.Models.SellerAccounts
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SellerAccounts</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SellerId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SellerId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BankName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BankName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IFSC)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IFSC)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MobileNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MobileNumber)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.AccountNumber">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

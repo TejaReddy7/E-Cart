@@ -1,0 +1,66 @@
+﻿@model E_Cart.WebSite.Models.Orders
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Orders</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SellerId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SellerId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateStamp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateStamp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EstimatedDeliveryDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EstimatedDeliveryDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Products)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Products.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Users)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Users.Address)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OrderDetails)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OrderDetails.OrderNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Payments)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Payments.ModeOfPayment)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Shipments)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Shipments.ShipmentId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.OrderId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
